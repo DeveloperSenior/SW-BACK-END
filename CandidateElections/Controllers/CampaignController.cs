@@ -10,7 +10,7 @@ using CandidateElections.Models;
 
 namespace CandidateElections.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/campaign")]
     [ApiController]
     public class CampaignController : ControllerBase
     {
@@ -21,7 +21,7 @@ namespace CandidateElections.Controllers
             _context = context;
         }
 
-        // GET: api/Campaign
+        // GET: api/ 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Campaign>>> GetCampaigns()
         {

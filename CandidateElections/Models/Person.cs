@@ -11,23 +11,38 @@ namespace CandidateElections.Models
         }
 		[Column("cddocumento")]
 		public string Id { get; set; }
-		public string CdtipoDocumento { get; set; }
-        public DateTime FeexpedicionDocumento { get; set; }
-		public string CdciudadExpedicionDocto { get; set; }
-		public string Cdciudad_expedicion_docto { get; set; }
-		public string DsnombreCompleto { get; set; }
-		public string Dsnombre1 { get; set; }
-		public string Dsnombre2 { get; set; }
-		public string Dsapellido1 { get; set; }
-		public string Dsapellido2 { get; set; }
-		public string Dstelefono { get; set; }
-		public string Dscelular { get; set; }
-		public string Dsdireccion { get; set; }
-		public string Dsemail { get; set; }
-		public DateTime Fenacimiento { get; set; }
-		public string SntratamientoDatos { get; set; }
-		public string SncomunicadosEmail { get; set; }
-		public string SncomunicadosTextos { get; set; }
+		[Column("cdtipo_documento")]
+		public string CdTipoDocumento { get; set; }
+		[Column("feexpedicion_documento")]
+		public DateTime FeExpedicionDocumento { get; set; }
+		[Column("cdciudad_expedicion_docto")]
+		public string CdCiudadExpedicionDocto { get; set; }
+		[Column("dsnombre_completo")]
+		public string DsNombreCompleto { get; set; }
+		[Column("dsnombre1")]
+		public string DsNombre1 { get; set; }
+		[Column("dsnombre2")]
+		public string DsNombre2 { get; set; }
+		[Column("dsapellido1")]
+		public string DsApellido1 { get; set; }
+		[Column("dsapellido2")]
+		public string DsApellido2 { get; set; }
+		[Column("dstelefono")]
+		public string DsTelefono { get; set; }
+		[Column("dscelular")]
+		public string DsCelular { get; set; }
+		[Column("dsdireccion")]
+		public string DsDireccion { get; set; }
+		[Column("dsemail")]
+		public string DsEmail { get; set; }
+		[Column("fenacimiento")]
+		public DateTime FeNacimiento { get; set; }
+		[Column("sntratamiento_datos")]
+		public string SnTratamientoDatos { get; set; }
+		[Column("sncomunicados_email")]
+		public string SnComunicadosEmail { get; set; }
+		[Column("sncomunicados_textos")]
+		public string SnComunicadosTextos { get; set; }
 
 
 	}

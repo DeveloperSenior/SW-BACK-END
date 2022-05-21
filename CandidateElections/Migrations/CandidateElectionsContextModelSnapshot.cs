@@ -160,73 +160,69 @@ namespace CandidateElections.Migrations
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text")
-                        .HasColumnName("cddocumento");
+                        .HasColumnName("cdDocumento");
 
-                    b.Property<string>("CdciudadExpedicionDocto")
+                    b.Property<string>("CdCiudadExpedicionDocto")
                         .HasColumnType("text")
                         .HasColumnName("cdciudad_expedicion_docto");
 
-                    b.Property<string>("Cdciudad_expedicion_docto")
-                        .HasColumnType("text")
-                        .HasColumnName("cdciudad_expedicion_docto1");
-
-                    b.Property<string>("CdtipoDocumento")
+                    b.Property<string>("CdTipoDocumento")
                         .HasColumnType("text")
                         .HasColumnName("cdtipo_documento");
 
-                    b.Property<string>("Dsapellido1")
+                    b.Property<string>("DsApellido1")
                         .HasColumnType("text")
                         .HasColumnName("dsapellido1");
 
-                    b.Property<string>("Dsapellido2")
+                    b.Property<string>("DsApellido2")
                         .HasColumnType("text")
                         .HasColumnName("dsapellido2");
 
-                    b.Property<string>("Dscelular")
+                    b.Property<string>("DsCelular")
                         .HasColumnType("text")
                         .HasColumnName("dscelular");
 
-                    b.Property<string>("Dsdireccion")
+                    b.Property<string>("DsDireccion")
                         .HasColumnType("text")
                         .HasColumnName("dsdireccion");
 
-                    b.Property<string>("Dsemail")
+                    b.Property<string>("DsEmail")
                         .HasColumnType("text")
                         .HasColumnName("dsemail");
 
-                    b.Property<string>("Dsnombre1")
+                    b.Property<string>("DsNombre1")
                         .HasColumnType("text")
                         .HasColumnName("dsnombre1");
 
-                    b.Property<string>("Dsnombre2")
+                    b.Property<string>("DsNombre2")
                         .HasColumnType("text")
                         .HasColumnName("dsnombre2");
 
-                    b.Property<string>("DsnombreCompleto")
+                    b.Property<string>("DsNombreCompleto")
                         .HasColumnType("text")
                         .HasColumnName("dsnombre_completo");
 
-                    b.Property<string>("Dstelefono")
+                    b.Property<string>("DsTelefono")
                         .HasColumnType("text")
                         .HasColumnName("dstelefono");
 
-                    b.Property<DateTime>("FeexpedicionDocumento")
+                    b.Property<DateTime>("FeExpedicionDocumento")
                         .HasColumnType("timestamp without time zone")
                         .HasColumnName("feexpedicion_documento");
 
-                    b.Property<DateTime>("Fenacimiento")
+                    b.Property<DateTime>("FeNacimiento")
                         .HasColumnType("timestamp without time zone")
                         .HasColumnName("fenacimiento");
 
-                    b.Property<string>("SncomunicadosEmail")
+                    b.Property<string>("SnComunicadosEmail")
                         .HasColumnType("text")
                         .HasColumnName("sncomunicados_email");
 
-                    b.Property<string>("SncomunicadosTextos")
+                    b.Property<string>("SnComunicadosTextos")
                         .HasColumnType("text")
                         .HasColumnName("sncomunicados_textos");
 
-                    b.Property<string>("SntratamientoDatos")
+                    b.Property<string>("SnTratamientoDatos")
                         .HasColumnType("text")
                         .HasColumnName("sntratamiento_datos");
 

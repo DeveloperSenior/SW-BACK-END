@@ -10,7 +10,7 @@ using CandidateElections.Models;
 
 namespace CandidateElections.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/person")]
     [ApiController]
     public class PersonController : ControllerBase
     {
