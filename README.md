@@ -5,4 +5,4 @@ Run app for a dev server. Navigate to `https://localhost:5001/swagger/index.html
 
 ## Data base PostgreSQL
 
-See file `DML-TABLES.sql` and file `appsettings.json` ConnectionStrings `CandidateElectionsContext` name database `elections`
+See file `CandidateElections/Properties/BD/DML-TABLES.sql` and file `appsettings.json` ConnectionStrings `CandidateElectionsContext` name database `elections`
